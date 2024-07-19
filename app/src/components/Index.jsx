@@ -44,7 +44,7 @@ const Index = () => {
             let apiUrl = `${baseURL}/top-headlines/sources?apiKey=${apiKey}&pageSize=10`;
             toParam = date[0].toISOString().split('T')[0];
             fromParam = date[1].toISOString().split('T')[0];
-            apiUrl += apiUrl + `&to=${toParam}` + `&from=${fromParam}`;
+            apiUrl += apiUrl + `&to=${toParam}&from=${fromParam}`;
             if (categories.length > 0) {
                 let url;
                 for (let i = 0; i < categories.length; i++) {
@@ -132,7 +132,7 @@ const Index = () => {
             });
         }
         fetchNews();
-
+        // eslint-disable-next-line
     }, [date, country, categories])
 
     // Write task 11 Create state solution

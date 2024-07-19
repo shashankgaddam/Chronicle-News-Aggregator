@@ -11,7 +11,7 @@ import { baseURL } from "../utilities/constants";
 import "../css/Headlines.css";
 import { hasFollowedNews } from "./../utilities/helper";
 import img from "../images/no-image-found.jpg";
-import Spinner from "react-bootstrap/Spinner";
+//import Spinner from "react-bootstrap/Spinner";
 
 const NewsCard = (props) => {
   const DEFAULT_IMAGE = img;
@@ -49,6 +49,7 @@ const NewsCard = (props) => {
         }
       });
     }
+    // eslint-disable-next-line
   }, [buttonText, buttonVariant, isFollowed]);
 
   // write task 8 (date formatting function) here
