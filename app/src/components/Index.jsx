@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Spinner from "react-bootstrap/Spinner";
+//import Spinner from "react-bootstrap/Spinner";
 import { baseURL, categories as categoriesList } from "../utilities/constants";
 import "../css/Headlines.css";
 import Filters from "./Filters";
