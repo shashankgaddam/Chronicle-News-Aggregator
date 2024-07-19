@@ -9,7 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { baseURL } from "../utilities/constants";
 import "../css/Headlines.css";
-import { hasFollowedNews } from "./../utilities/helper";
+import { hasFollowedNews } from "../utilities/helper";
 import img from "../images/no-image-found.jpg";
 //import Spinner from "react-bootstrap/Spinner";
 

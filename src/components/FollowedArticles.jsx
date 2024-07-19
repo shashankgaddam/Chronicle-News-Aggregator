@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NewsCard from "./NewsCard";
 import { faThumbsUp, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { hasFollowedNews } from "./../utilities/helper";
+import { hasFollowedNews } from "../utilities/helper";
 
 const FollowedArticles = () => {
   const [rotate, setRotate] = useState(0);

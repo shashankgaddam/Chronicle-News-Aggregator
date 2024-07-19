@@ -9,7 +9,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 // e.g. ed-1234567890.educative.run
-export const baseURL = "http://localhost:8000/api?url=https://newsapi.org/v2";
+//export const baseURL = "http://localhost:8000/api?url=https://newsapi.org/v2";
+export const baseURL = "https://morning-bayou-13400-bbb9508ae99c.herokuapp.com/api?url=https://newsapi.org/v2";
 
 export const countries = [
   {
